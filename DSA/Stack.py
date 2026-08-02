@@ -2,13 +2,13 @@ class Stack:
     def __init__(self):
         self.top = -1
         self.ST=[0]*5
-    def insert(self,x):        
+    def push(self,x):        
         if self.top == 4:
             print("Stack is overflow...")
             return
         self.top = self.top + 1
         self.ST[self.top] = x
-    def Delete(self):
+    def pop(self):
         if self.top == -1 :
             print("Stack is underflow...")
             return
@@ -16,6 +16,12 @@ class Stack:
             y = self.ST[self.top]
             self.top = self.top - 1
         return y
+    def peek(self):
+        if self.top == -1:
+            print("Stack is empty...")
+            return
+        else:
+            return self.ST[self.top]
     def display(self):
         if self.top == -1:
             print("Nothing to display...")
@@ -25,21 +31,26 @@ class Stack:
 
 s = Stack()
 while True:
-    print("1. Insert")
-    print("2. Delete")
-    print("3. Display")
-    print("4. Exit")
+    print("1. Push")
+    print("2. Pop")
+    print("3. Peek")
+    print("4. Display")
+    print("5. Exit")
     ch = int(input("Enter your choice: "))
     if ch == 1:
-        x = int(input("Enter the element to be inserted: "))
-        s.insert(x)
+        x = int(input("Enter the element to be pushed: "))
+        s.push(x)
     elif ch == 2:
-        y = s.Delete()
+        y = s.pop()
         if y is not None:
-            print("Deleted element is:",y)
+            print("Popped element is:",y)
     elif ch == 3:
-        s.display()
+        y = s.peek()
+        if y is not None:
+            print("Top element is:",y)
     elif ch == 4:
+        s.display()
+    elif ch == 5:
         break
     else:
-        print("Invalid choice...")             
+        print("Invalid choice...")           
