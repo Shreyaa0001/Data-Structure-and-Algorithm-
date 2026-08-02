@@ -10,18 +10,19 @@ class LinkedList:
         n = int(input("Enter the number of nodes: "))
         if n <= 0:
             print("Number of nodes must be greater than 0.")
-        for n in range(1,n+1):
-            val = input("Enter the value for node: ")
+        for i in range(1,n+1):
+            val = input(f"Enter the value for node {i}: ")
             self.insert(val)
-    def insert(self,data):
-        new_node = Node(data)
+    def insert(self,val):
+        new_node = Node(val)
         if self.head is None:
             self.head = new_node
             return
-        last = self.head
-        while last.next:
-            last = last.next
-        last.next = new_node
+        temp = self.head
+        while temp.next:
+            temp = temp.next
+        temp.next = new_node
+
     def display(self):
         if self.head is None:
             print("The linked list is empty.")
@@ -51,4 +52,4 @@ while True:
             print("Exiting...")
             break
         else:
-            print("Invalid choice. Please try again.") 
+            print("Invalid choice. Please try again.")   
