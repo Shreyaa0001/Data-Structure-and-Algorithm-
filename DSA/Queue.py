@@ -23,6 +23,12 @@ class Queue:
             else:
                 self.F = self.F+1
         return y
+    def peek(self):
+        if self.F == -1:
+            print("Queue is empty...")
+            return
+        else:
+            return self.QT[self.F]
     def display(self):
         if self.F == -1:
             print("Nothing to display...")
@@ -33,8 +39,10 @@ q = Queue()
 while True: 
     print("1. Insert")
     print("2. Delete")
-    print("3. Display")
-    print("4. Exit")
+    print("3. Peek")
+    print("4. Display")
+    print("5. Exit")
+    
     ch = int(input("Enter your choice: "))
     if ch == 1:
         x = int(input("Enter the element to be inserted: "))
@@ -44,8 +52,12 @@ while True:
         if y is not None:
             print("Deleted element is:",y)
     elif ch == 3:
-        q.display()
+        y = q.peek()
+        if y is not None:
+            print("Front element is:",y)
     elif ch == 4:
+        q.display()
+    elif ch == 5:
         break
     else:
         print("Invalid choice...")
