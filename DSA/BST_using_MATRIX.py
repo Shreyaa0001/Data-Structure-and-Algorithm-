@@ -59,3 +59,25 @@ obj.create()
 obj.display()
 start = int(input("Enter start vertex:"))
 dfs(obj, start)
+###############################################################################################################################################################
+-----------------------------OUTPUT--------------------
+
+Enter no of vertices:3
+Enter no of edges:3
+Enter edge 1:
+Enter start vertex:0
+Enter End vertex:1
+Enter weight:2
+Enter edge 2:
+Enter start vertex:1
+Enter End vertex:2
+Enter weight:4
+Enter edge 3:
+Enter start vertex:2
+Enter End vertex:0
+Enter weight:6
+0 2 6 
+2 0 4 
+6 4 0 
+Enter start vertex:0
+0 2 
