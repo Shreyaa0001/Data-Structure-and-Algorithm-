@@ -1,0 +1,43 @@
+class Graph:
+    def __init__(self, v):
+        self.vertices = v
+        self.AdjL = [[] for i in range(v)]
+
+    def addEdge(self):
+        e = int(input("Enter number of friendships: "))
+        for i in range(e):
+            print(f"Enter Friendship {i+1}")
+            u = int(input("Enter resident u: "))
+            v = int(input("Enter resident v: "))
+            self.AdjL[u].append(v)
+            self.AdjL[v].append(u)  # undirected friendship
+
+    def display(self):
+        print("\nNeighborhood Friendship Network (Adjacency List):")
+        for i in range(self.vertices):
+            print(i, "->", self.AdjL[i])
+
+    def bfs(self, start):
+        visited = [False] * self.vertices
+        level = [0] * self.vertices
+        queue = [start]   # list as queue
+        visited[start] = True
+
+        print("\nBFS Traversal (Residents by Social Distance):")
+        while queue:
+            current = queue.pop(0)   # dequeue
+            print(f"Resident {current} at social distance {level[current]}")
+            for neighbor in self.AdjL[current]:
+                if not visited[neighbor]:
+                    visited[neighbor] = True
+                    level[neighbor] = level[current] + 1
+                    queue.append(neighbor)
+
+
+# ---- Driver Code ----
+n = int(input("Enter number of residents: "))
+o = Graph(n)
+o.addEdge()
+o.display()
+start = int(input("Enter starting resident: "))
+o.bfs(start)
