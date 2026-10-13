@@ -111,3 +111,88 @@ if __name__ == "__main__":
             break
         else:
             print("Invalid choice, try again.")
+
+
+
+
+====================================================================================================================================================================
+
+--- Staff Promotion Records Menu ---
+1. Insert Eligible Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 1
+Enter Employee ID to insert: 1001
+
+--- Staff Promotion Records Menu ---
+1. Insert Eligible Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 1
+Enter Employee ID to insert: 1002
+
+--- Staff Promotion Records Menu ---
+1. Insert Eligible Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 1
+Enter Employee ID to insert: 1003
+
+--- Staff Promotion Records Menu ---
+1. Insert Eligible Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 2
+Inorder traversal: 1001 1002 1003 
+
+--- Staff Promotion Records Menu ---
+1. Insert Eligible Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 3
+Level-wise traversal: 1001 1002 1003 
+
+--- Staff Promotion Records Menu ---
+1. Insert Eligible Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 4
+Height of registry: 3
+
+--- Staff Promotion Records Menu ---
+1. Insert Eligible Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 5
+Leaf Employee IDs: 1003 
+
+--- Staff Promotion Records Menu ---
+1. Insert Eligible Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 6
+Exiting Staff Promotion Records...
