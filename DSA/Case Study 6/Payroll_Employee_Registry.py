@@ -111,3 +111,115 @@ if __name__ == "__main__":
             break
         else:
             print("Invalid choice, try again.")
+
+===============================================================================================================================================================
+--- Payroll Employee Registry Menu ---
+1. Insert Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 1
+Enter Employee ID to insert: 101
+
+--- Payroll Employee Registry Menu ---
+1. Insert Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 1
+Enter Employee ID to insert: 102
+
+--- Payroll Employee Registry Menu ---
+1. Insert Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 1
+Enter Employee ID to insert: 103
+
+--- Payroll Employee Registry Menu ---
+1. Insert Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 1
+Enter Employee ID to insert: 104
+
+--- Payroll Employee Registry Menu ---
+1. Insert Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 1
+Enter Employee ID to insert: 105
+
+--- Payroll Employee Registry Menu ---
+1. Insert Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 2
+Inorder traversal: 101 102 103 104 105 
+
+--- Payroll Employee Registry Menu ---
+1. Insert Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 3
+Level-wise traversal: 101 102 103 104 105 
+
+--- Payroll Employee Registry Menu ---
+1. Insert Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 4
+Height of registry: 5
+
+--- Payroll Employee Registry Menu ---
+1. Insert Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 5
+Leaf Employee IDs: 105 
+
+--- Payroll Employee Registry Menu ---
+1. Insert Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 5
+Leaf Employee IDs: 105 
+
+--- Payroll Employee Registry Menu ---
+1. Insert Employee ID
+2. Display Inorder Traversal (sorted IDs)
+3. Display Level-wise Traversal
+4. Display Height of Registry
+5. Display Leaf Employee IDs
+6. Exit
+Enter your choice: 6
+Exiting Payroll Registry...
+PS C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code> & C:\Users\ASUS\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/ASUS/Advance Python/DSA/Staff_Pramotion_Record.py"
