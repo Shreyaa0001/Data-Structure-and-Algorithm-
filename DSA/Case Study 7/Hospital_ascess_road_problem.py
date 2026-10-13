@@ -59,3 +59,30 @@ obj.create()
 obj.display()
 start = int(input("Enter starting location (Main Entrance index): "))
 dfs(obj, start)
+
+================================================================================================================================================================
+PS C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code> & C:\Users\ASUS\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/ASUS/Advance Python/DSA/Case Study 7/Hospital_ascess_road_problem.py"
+Enter number of hospital locations: 4
+Enter number of connecting roads: 3
+Enter road 1:
+Enter start location: 0
+Enter end location: 1
+Enter distance (weight): 5
+Enter road 2:
+Enter start location: 1
+Enter end location: 2
+Enter distance (weight): 3
+Enter road 3:
+Enter start location: 2
+Enter end location: 3
+Enter distance (weight): 4
+
+Adjacency Matrix (Hospital Road Network):
+0 5 0 0 
+5 0 3 0 
+0 3 0 4 
+0 0 4 0 
+Enter starting location (Main Entrance index): 0
+
+DFS Traversal from Main Entrance:
+0 
