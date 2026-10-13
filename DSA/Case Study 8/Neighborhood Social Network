@@ -41,3 +41,39 @@ o.addEdge()
 o.display()
 start = int(input("Enter starting resident: "))
 o.bfs(start)
+
+====================================================================================================================================================================
+
+PS C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code> & C:\Users\ASUS\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/ASUS/Advance Python/DSA/Case Study 8/Neighborhood Social Network"
+Enter number of residents: 5
+Enter number of friendships: 5
+Enter Friendship 1
+Enter resident u: 0
+Enter resident v: 1
+Enter Friendship 2
+Enter resident u: 1
+Enter resident v: 2
+Enter Friendship 3
+Enter resident u: 2
+Enter resident v: 3
+Enter Friendship 4
+Enter resident u: 3
+Enter resident v: 4
+Enter Friendship 5
+Enter resident u: 4
+Enter resident v: 0
+
+Neighborhood Friendship Network (Adjacency List):
+0 -> [1, 4]
+1 -> [0, 2]
+2 -> [1, 3]
+3 -> [2, 4]
+4 -> [3, 0]
+Enter starting resident: 0
+
+BFS Traversal (Residents by Social Distance):
+Resident 0 at social distance 0
+Resident 1 at social distance 1
+Resident 4 at social distance 1
+Resident 2 at social distance 2
+Resident 3 at social distance 2
