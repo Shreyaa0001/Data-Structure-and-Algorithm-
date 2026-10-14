@@ -55,9 +55,49 @@ class Graph:
             total += self.G[i][parent[i]]
         print("Total wiring cost =", total)
 
-
 # Driver code
 obj = Graph()
 obj.create()
 obj.display()
 obj.prims()
+===========================================================================================================================================================================
+PS C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code> & C:\Users\ASUS\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/ASUS/Advance Python/DSA/Case Study 9/Electric_Vehicle_Charging_Hubs.py"
+Enter number of hubs (vertices): 4
+Enter number of connections (edges): 5
+
+Enter Connection 1
+Enter start hub: 0
+Enter end hub: 1
+Enter cable cost: 8
+
+Enter Connection 2
+Enter start hub: 0
+Enter end hub: 2
+Enter cable cost: 5
+
+Enter Connection 3
+Enter start hub: 1
+Enter end hub: 2
+Enter cable cost: 9
+
+Enter Connection 4
+Enter start hub: 1
+Enter end hub: 3
+Enter cable cost: 11
+
+Enter Connection 5
+Enter start hub: 2
+Enter end hub: 3
+Enter cable cost: 7
+
+Adjacency Matrix:
+0 8 5 0 
+8 0 9 11 
+5 9 0 7 
+0 11 7 0 
+
+Optimal Connections (MST):
+0 - 1 : 8
+0 - 2 : 5
+2 - 3 : 7
+Total wiring cost = 20
