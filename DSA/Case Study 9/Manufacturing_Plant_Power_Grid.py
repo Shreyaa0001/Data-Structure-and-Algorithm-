@@ -61,3 +61,52 @@ obj = Graph()
 obj.create()
 obj.display()
 obj.prims()
+
+===============================================================================================================================================================================
+PS C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code> & C:\Users\ASUS\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/ASUS/Advance Python/DSA/Case Study 9/Manufacturing_Plant_Power_Grid.py"
+Enter number of vertices: 5
+Enter number of edges: 6
+
+Enter Edge 1
+Enter start vertex: 0
+Enter end vertex: 1
+Enter cable cost: 2
+
+Enter Edge 2
+Enter start vertex: 0
+Enter end vertex: 3
+Enter cable cost: 6
+
+Enter Edge 3
+Enter start vertex: 1
+Enter end vertex: 2
+Enter cable cost: 3
+
+Enter Edge 4
+Enter start vertex: 1
+Enter end vertex: 3
+Enter cable cost: 8
+
+Enter Edge 5
+Enter start vertex: 1
+Enter end vertex: 4
+Enter cable cost: 5
+
+Enter Edge 6
+Enter start vertex: 2
+Enter end vertex: 4
+Enter cable cost: 7
+
+Adjacency Matrix:
+0 2 0 6 0 
+2 0 3 8 5 
+0 3 0 0 7 
+6 8 0 0 0 
+0 5 7 0 0 
+
+Edges in MST:
+0 - 1 : 2
+1 - 2 : 3
+0 - 3 : 6
+1 - 4 : 5
+Total cable cost = 16
