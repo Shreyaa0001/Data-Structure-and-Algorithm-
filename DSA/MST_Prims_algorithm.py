@@ -51,3 +51,42 @@ obj = Graph()
 obj.create()
 obj.display()
 obj.prims()
+==================================================================================================================================================================
+PS C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code> & C:\Users\ASUS\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/ASUS/Advance Python/DSA/MSP_Prims_aldorithm.py"
+Enter no.of vertices:5
+Enter no.of edges:5
+
+Enter Edge 1
+Enter start vertex:0
+Enter end vertex:1
+Enter weight:10
+
+Enter Edge 2
+Enter start vertex:1 
+Enter end vertex:2
+Enter weight:20
+
+Enter Edge 3
+Enter start vertex:2
+Enter end vertex:3
+Enter weight:30
+
+Enter Edge 4
+Enter start vertex:3
+Enter end vertex:4
+Enter weight:40
+
+Enter Edge 5
+Enter start vertex:4
+Enter end vertex:0
+Enter weight:50
+0 10 0 0 50 
+10 0 20 0 0 
+0 20 0 30 0 
+0 0 30 0 40 
+50 0 0 40 0 
+-1 - 1 0
+-1 - 2 0
+-1 - 3 40
+-1 - 4 0
+Total cost 40
