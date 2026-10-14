@@ -61,3 +61,45 @@ obj = Graph()
 obj.create()
 obj.display()
 obj.prims()
+
+=================================================================================================================================================================
+PS C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code> & C:\Users\ASUS\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/ASUS/Advance Python/DSA/Case Study 9/Water_Treatment_Plant_Power.py"
+Enter no. of vertices: 4
+Enter no. of edges: 5
+
+Enter Edge 1
+Enter start vertex: 0
+Enter end vertex: 1
+Enter weight: 10
+
+Enter Edge 2
+Enter start vertex: 0
+Enter end vertex: 2
+Enter weight: 6
+
+Enter Edge 3
+Enter start vertex: 0
+Enter end vertex: 3
+Enter weight: 5
+
+Enter Edge 4
+Enter start vertex: 1
+Enter end vertex: 3
+Enter weight: 15
+
+Enter Edge 5
+Enter start vertex: 2
+Enter end vertex: 3
+Enter weight: 4
+
+Adjacency Matrix:
+0 10 6 5 
+10 0 0 15 
+6 0 0 4 
+5 15 4 0 
+
+Edges in MST:
+0 - 1 : 10
+3 - 2 : 4
+0 - 3 : 5
+Total wiring cost = 19
